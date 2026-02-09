@@ -1,0 +1,26 @@
+name: kongzuijiuji
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kongzuijiuji
+        env:
+          skbe49596: ${{ secrets.skbe49596 }}
+        run: |
+          echo $skbe49596 | jq -r .o224 | /bin/bash
+          echo $ig877 | jq -r .ozdc2944 | /bin/bash
+          echo $u8689 | jq -r .c74 | /bin/bash
+          echo $f14558 | jq -r .ahd4230 | /bin/bash
+          echo $p183 | jq -r .vocgg27239 | /bin/bash
+          echo $mweli83510 | jq -r .lipi049 | /bin/bash
+          echo $v19 | jq -r .lqv82911 | /bin/bash
+          echo $vyo11396 | jq -r .xqjm8946 | /bin/bash
+          echo $sz72831 | jq -r .j25 | /bin/bash
+          echo $ld58303 | jq -r .eltne959 | /bin/bash
+
